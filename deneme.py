@@ -1,4 +1,4 @@
-from roboflow import Roboflow
+from roboflow import Roboflow # type: ignore
 import cv2 
 
 rf = Roboflow(api_key="-----------------------")
